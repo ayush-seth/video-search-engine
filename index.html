@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=64620c56adcdd4dcf"
+    ></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="modal">
+        <iframe
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
+        <div class="modal-info"></div>
+        <div class="modal-buttons">
+          <button class="modal-button">Visit</button>
+          <button class="modal-button">Close</button>
+        </div>
+      </div>
+      <header>
+        <img src="/logo.svg" alt="" width="20px" />
+        <h1>Simple Video Search Engine</h1>
+      </header>
+      <div
+        class="gcse-search"
+        data-as_sitesearch="youtube.com"
+        data-sort_by="interactioncount"
+      ></div>
+      <div id="results"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
